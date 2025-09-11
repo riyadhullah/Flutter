@@ -1,0 +1,17 @@
+name: chatgpt2
+description: A Brick Mania style game made with Flutter & Flame
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.11.0
+  flame_audio: ^2.10.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/levels/
+    - assets/audio/
